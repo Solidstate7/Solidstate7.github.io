@@ -51,7 +51,7 @@ h5,
 h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #a8ddd2;
+  color: #b9dbd4;
   letter-spacing: -0.025rem;
 }
 
@@ -111,7 +111,7 @@ h6 {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #eeeeee;
   letter-spacing: 0;
 }
 
@@ -217,7 +217,7 @@ a.sidebar-nav-item:focus {
   align-items: center;
   padding: 0.25rem 0.75rem;
   color: #505050;
-  background-color: #4dbba5c7;
+  background-color: #4dbba5;
   border-radius: 0.25rem;
   cursor: pointer;
 }
