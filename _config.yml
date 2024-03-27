@@ -6,6 +6,8 @@ url: https://eunjae.xyz
 baseurl: ""
 paginate: 5
 permalink: pretty
+github:
+  repo: https://github.com/Solidstate7
 
 # About/contact
 author:
@@ -20,3 +22,7 @@ plugins:
 # Custom vars
 version: 1.1.0
 google_analytics_id: #UA-XXXX-Y
+
+exclude:
+  - node_modules
+  - dev-react
