@@ -1,16 +1,16 @@
 # Setup
 title: Eunjae's IT Laboratory
-tagline: "Web & Blockchain Development"
-description: "The day my keyboard stops, my epitaph is written."
-url: https://solidstate7.github.io/
-baseurl: ""
+tagline: 'Web & Blockchain Development'
+description: 'Truth is salvation to humanity.'
+url: https://solidstate7.github.io
+baseurl: https://eunjae.xyz
 paginate: 5
 permalink: pretty
 
 # About/contact
 author:
   name: Eunjae Lee
-  url: https://github.com/Solidstate7/
+  url: https://github.com/Solidstate7
   email: vanitasium@gmail.com
 
 # Gems
