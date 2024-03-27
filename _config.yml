@@ -1,9 +1,9 @@
 # Setup
 title: Eunjae's IT Laboratory
-tagline: 'Web & Blockchain Development'
-description: 'Truth is salvation to humanity.'
-url: https://solidstate7.github.io
-baseurl: ''
+tagline: "Web & Blockchain Development"
+description: "Truth is salvation to humanity."
+url: https://eunjae.xyz
+baseurl: ""
 paginate: 5
 permalink: pretty
 
