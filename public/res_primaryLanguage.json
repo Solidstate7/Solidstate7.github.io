@@ -12,102 +12,121 @@
   "projects": [
     {
       "title": "Web3 Project: Naegift",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-      "images": ["images/portfolio/animal-shelter/download.gif"],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "React Project: Stacker-Labs",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": ["images/portfolio/animal-shelter/download.gif"],
-      "url": "https://github.com",
+      "startDate": "2024.02",
+      "description": "Naegift is a decentralized gift exchange platform that allows users to create and participate in gift exchanges. Users can perform transactions using MetaMask. The platform's escrow service is built on the Ethereum blockchain and uses smart contracts to manage gift exchanges. The platform also uses decentralized identity and Verifiable Credentials (DID / VC) to manage user identities and ensure privacy, powered by Masca and Veramo.",
+      "images": ["images/portfolio/naegift/naegift.gif"],
+      "url": "https://nae-gift.com",
       "technologies": [
         {
           "class": "devicon-react-original",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
+        }
+      ]
+    },
+    {
+      "title": "React Project: Stacker-Labs",
+      "startDate": "2023.12",
+      "description": "Stacker-Labs is a platform that allows developers to create and share code snippets. Users can create an account, share or search code snippets categorized by tags, and follow other users to communicate. Built with React, Tailwind CSS, and NestJS, the platform also uses Socket.io for real-time chat.",
+      "images": ["images/portfolio/stackerlabs/stackerlabs.gif"],
+      "url": "https://eunjae.store",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind CSS"
+        },
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-socketio-plain",
+          "name": "Socket.io"
         }
       ]
     },
     {
       "title": "Express Project: DevUp",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": ["images/portfolio/animal-shelter/download.gif"],
-      "url": "https://github.com",
+      "startDate": "2023.11",
+      "description": "DevUp is a platform that allows developers to connect with each other and collaborate on projects. Users can create a profile, search for other developers, and participate in a public chat powered by Socket.io. The platform is built using ExpressJS, rendered by Nunjucks.",
+      "images": ["images/portfolio/devup/devup.gif"],
+      "url": "https://github.com/KGA-Town-Bus/Project_DevUp",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
+        },
+        {
+          "class": "devicon-socketio-plain",
+          "name": "Socket.io"
+        },
+        {
+          "class": "devicon-oauth-plain",
+          "name": "OAuth2.0"
         }
       ]
     },
     {
       "title": "Kakao Login Process",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": ["images/portfolio/animal-shelter/download.gif"],
-      "url": "https://github.com",
+      "startDate": "2023.09",
+      "description": "This project is a simple implementation of the Kakao login process using OAuth2.0. The project demonstrates how to authenticate users using Kakao's OAuth2.0 API and retrieve user information. The project is built using Express.js, based on the sequence diagram.",
+      "images": [
+        "images/portfolio/kakaologin/kakaologin.gif",
+        "images/portfolio/kakaologin/diagram.png"
+      ],
+      "url": "https://github.com/Solidstate7/Kakao_Login",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-oauth-plain",
+          "name": "OAuth2.0"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
         }
       ]
     },
     {
       "title": "Express CRUD Project",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": ["images/portfolio/animal-shelter/download.gif"],
-      "url": "https://github.com",
+      "startDate": "2023.08",
+      "description": "This project is a simple CRUD (Create, Read, Update, Delete) board application for a bootcamp academy. The project demonstrates how to create a RESTful API with ExpressJS and perform CRUD operations on a database. The project is built using ExpressJS, MySQL, and a hardcoded ORM.",
+      "images": ["images/portfolio/crud/crud.gif"],
+      "url": "https://github.com/Solidstate7/CRUD_BOARD_PROJECT",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
         }
       ]
     }

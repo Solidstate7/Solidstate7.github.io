@@ -1,116 +1,166 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "안녕하세요, 블록체인 개발자 이은재입니다.",
+    "description": "저는 호기심과 집요함을 타고나 끊임없이 탐구에 이끌리는 사람입니다. 탐구라는 것은 진실을 탐색하는 것이고, 진실은 변하지 않고 누구에게나 열려있습니다. 블록체인은 완전무결성과 투명성을 보장하는 기술로써, 진실을 기록하는 장부라고 생각합니다. 따라서 이러한 블록체인으로 유용한 서비스를 만들어 사회에 기여하고 싶습니다.",
+    "section_name": {
+      "about": "자기 소개",
+      "projects": "프로젝트",
+      "skills": "기술",
+      "experience": "경험"
+    }
+  },
+  "projects": [
+    {
+      "title": "Web3 프로젝트: Naegift",
+      "startDate": "2024.02",
+      "description": "Naegift는 사용자가 선물을 등록하거나 구매하여 보낼 수 있는 탈중앙 선물 교환 마켓플레이스입니다. MetaMask를 사용하여 선물을 구매하는데, 이더리움 블록체인과 스마트 컨트랙트를 활용한 에스크로 서비스가 거래 중개 역할을 담당합니다. 가장 핵심 기술로는 분산된 신원 및 검증 가능한 자격증명(DID / VC)을 사용하여, 안전하게 신원을 관리하고 선물 소유권을 보장합니다.",
+      "images": ["images/portfolio/naegift/naegift.gif"],
+      "url": "https://nae-gift.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "React 프로젝트: Stacker-Labs",
+      "startDate": "2023.12",
+      "description": "Stacker-Labs는 개발자들이 코드 스니펫을 생성하고 공유할 수 있는 플랫폼입니다. 계정을 생성하고 태그별로 분류된 코드 스니펫을 공유하거나 검색할 수 있으며, 다른 사용자를 팔로우하여 소통할 수 있습니다. React, Tailwind CSS, NestJS를 사용하여 구축되었으며, 실시간 채팅을 위해 Socket.io가 사용됐습니다.",
+      "images": ["images/portfolio/stackerlabs/stackerlabs.gif"],
+      "url": "https://eunjae.store",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind CSS"
+        },
+        {
+          "class": "devicon-nestjs-plain",
+          "name": "NestJS"
+        },
+        {
+          "class": "devicon-socketio-plain",
+          "name": "Socket.io"
+        }
+      ]
+    },
+    {
+      "title": "Express 프로젝트: DevUp",
+      "startDate": "2023.11",
+      "description": "DevUp는 개발자들이 서로 소통하고 협력할 수 있는 플랫폼입니다. 프로필 생성, 검색, 공개 채팅 등의 기능이 있습니다. ExpressJS를 사용하여 구축되었으며, Nunjucks로 렌더링됩니다.",
+      "images": ["images/portfolio/devup/devup.gif"],
+      "url": "https://github.com/KGA-Town-Bus/Project_DevUp",
+      "technologies": [
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
+        },
+        {
+          "class": "devicon-socketio-plain",
+          "name": "Socket.io"
+        },
+        {
+          "class": "devicon-oauth-plain",
+          "name": "OAuth2.0"
+        }
+      ]
+    },
+    {
+      "title": "Kakao 로그인 프로세스",
+      "startDate": "2023.09",
+      "description": "이 프로젝트는 시퀀스 다이어그램에 따라 카카오 로그인 프로세스를 간단히 구현한 것으로, 카카오의 OAuth2.0 API를 사용하여 사용자 정보를 받아옵니다.",
+      "images": [
+        "images/portfolio/kakaologin/kakaologin.gif",
+        "images/portfolio/kakaologin/diagram.png"
+      ],
+      "url": "https://github.com/Solidstate7/Kakao_Login",
+      "technologies": [
+        {
+          "class": "devicon-oauth-plain",
+          "name": "OAuth2.0"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-sequelize-plain",
+          "name": "Sequelize"
+        }
+      ]
+    },
+    {
+      "title": "Express CRUD 프로젝트",
+      "startDate": "2023.08",
+      "description": "이 프로젝트는 부트캠프 아카데미를 위한 간단한 CRUD(Create, Read, Update, Delete) 게시판 애플리케이션입니다. ExpressJS 서버에서 RESTful API에 따라 CRUD 작업을 수행합니다. ExpressJS, MySQL, 하드코딩된 ORM을 사용하여 구축된 서비스입니다.",
+      "images": ["images/portfolio/crud/crud.gif"],
+      "url": "https://github.com/Solidstate7/CRUD_BOARD_PROJECT",
+      "technologies": [
+        {
+          "class": "devicon-express-original",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "경일 게임 아카데미",
+      "years": "2023.06 - 2024.03",
+      "mainTech": ["블록체인 기반 핀테크 및 응용 SW 개발자 양성과정 수료"],
+      "technologies": [
+        "Linux, Git",
+        "HTML, CSS Responsive (Tailwind), Figma",
+        "JavaScript, TypeScript",
+        "Node.js, Express.js",
+        "React (Hooks, Router, Styled Components, Class and Functional Components)",
+        "Webpack, Babel",
+        "CRUD Operations, REST APIs, HTTP Protocols",
+        "Database Management (MySQL, ORM with Sequelize)",
+        "Authentication (Cookies, JWT, Kakao API)",
+        "Socket.io, Web Sockets for Chatrooms",
+        "File Handling (Node.js File System, Multer for File Uploading)",
+        "Error and Exception Handling, TDD (Jest/Supertest)",
+        "Blockchain Technologies (Ethereum, Solidity, Web3.js, ethers.js, Truffle, Ganache, HardHat)",
+        "Smart Contract Patterns (DelegateCall, Proxy, Metatransaction)",
+        "Digital Identity and Cryptography (SSI, DID, VC, Asymmetrical Cryptography)",
+        "ERC Standards (ERC-20, ERC-721, ERC-4337)"
+      ]
+    },
+    {
+      "company": "Naegift",
+      "title": "ETH Seoul Hackathon 2024",
+      "years": "2024.03.29 - 2024.03.31",
+      "mainTech": ["팀장, 백엔드"],
+      "technologies": ["NestJS", "NextJS", "Scaffold-ETH-2", "Masca", "Veramo"]
+    }
+  ]
+}
