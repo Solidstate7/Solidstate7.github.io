@@ -1,134 +1,134 @@
-# Lanyon
+<img width="80%" align="center" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
+<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
+<h2>Portfolio Template</h2>
 
-![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
-![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
+<pre>
+⭐ Easy to adapt and deploy portfolio project covering most important 
+sections(about, exp, skills, projects), inspired with solutions found 
+at GitHub. Check live preview(link below).
+</pre>
 
+<strong>:crown: advantages</strong>
 
-## Contents
+<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+<br/>
 
+<h3>:eye_speech_bubble: Live demo</h3>
 
-## Usage
+Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
 
-Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
 
+<h3>:books: Getting started</h3>
 
-## Options
-
-Lanyon includes some customizable options, typically applied via classes on the `<body>` element.
-
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+1. Clone or fork project.
+2. Install required dependencies with `npm install`.
+3. Remove `homepage` entirely from `package.json` or set it to single dot. 
 
 ```
----
-layout: page
-title: About
----
-```
-
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-
-
-### Themes
-
-Lanyon ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Lanyon with red theme](https://f.cloud.github.com/assets/98681/1825270/be065110-71b0-11e3-9ed8-9b8de753a4af.png)
-![Lanyon with red theme and open sidebar](https://f.cloud.github.com/assets/98681/1825269/be05ec20-71b0-11e3-91ea-a9138ef07186.png)
-
-There are eight themes available at this time.
-
-![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add any one of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
+// package.json
+{
+  "name": "react-frontend-dev-portfolio",
+  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
   ...
-</body>
+}
 ```
 
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/public/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+4. `npm start` project and customize it.
+5. Deploy on github-pages using `npm run deploy` command.
 
+<pre>
+⚠️ Note that:
+- if you want to have portfolio on different repository than `{username}.github.io`, 
+set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
+before deploying portfolio.
+- if you want to run it locally with <strong>npm run start</strong>, make sure that you have edited 
+homepage property or json data won't load.
+</pre>
 
-### Reverse layout
+<h3>:star: Inspirations</h3>
 
-![Lanyon with reverse layout](https://f.cloud.github.com/assets/98681/1825265/be03f2e4-71b0-11e3-89f1-360705524495.png)
-![Lanyon with reverse layout and open sidebar](https://f.cloud.github.com/assets/98681/1825268/be056174-71b0-11e3-88c8-5055bca4307f.png)
+<a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
+<a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
+<a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
+<a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
+<a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
+<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
+<a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
 
-Reverse the page orientation with a single class.
+<h3>:memo: Changelog</h3>
+<details>
+<summary>[ 05.03.2022, contributor: <a href="https://github.com/mangelarilla">@mangelarilla</a> ]</summary>
+<pre>
+- update DevIcon stylesheet to latest one
+</pre>
+</details>
+<details>
+<summary>[ 03.10.2021, contributor: <a href="https://github.com/shahednasser">@shahednasser</a> ]</summary>
+<pre>
+- updated sass dependency.
+</pre>
+</details>
+<details>
+<summary>[ 26.05.2021, contributor: <a href="https://github.com/DavidMatalik">@DavidMatalik</a> ]</summary>
+<pre>
+- removed nonexisting logos references: logo192 and logo512.  
+</pre>
+</details>
+<details>
+<summary>[ 17.01.2021, contributor: <a href="https://github.com/igorperic17">@igorperic17</a> ]</summary>
+<pre>
+- wrapped the Typical component into a fixed height div due to the bad transitions for a brief moment between two titles when the string is empty (the content bellow jumps up-down very quickly).
+- removed the title from the page document.title due to the increased title length.
+</pre>
+</details>
+<details>
+<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
+<pre>
+- updated readme section
+- fixed problem of json files not being read
+</pre>
+</details>
+<details>
+<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
+<pre>
+- changed resume files names to more "universal"
+- moved languages names to global variables
+- moved section names to json files
+- added target="_blank" for footer links
+- added startDate property for projects
+- excluded common json data to portfolio_shared_data file
+- added header section height calculation based on formula: window.innerHeight - 140
+- small changes to vertical timeline item (color/font-size)
+- project link in modal is not shown if empty
+- changed slider preloader bar color
+- wrapped each skill into tile
+- footer fullname is fetched from json now
+- added mising "px" for avatar in About.js component
+- updated json files content
+- page title is fetched from json data
+- added GitHub reference corner "label"
+- edited page meta
+- added margin, padding 0 for html tag
+- excluded light theme ref from theme-dark file
+- slightly changed Header.js section look
+- made some changes to App.js to apply global variables/shared json etc.
+- centered fullname/pos/theme toggler in Header section
+</pre>
+</details>
 
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
+<h3>:gear: Contribution</h3>
 
+If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
 
-### Sidebar overlay instead of push
+<h3>:camera: Credits(images)</h3>
 
-Make the sidebar overlap the viewport content with a single class:
+Images used in portfolio template come from Pixabay, references:
 
-```html
-<body class="sidebar-overlay">
-  ...
-</body>
-```
-
-This will keep the content stationary and slide in the sidebar over the side content. It also adds a `box-shadow` based outline to the toggle for contrast against backgrounds, as well as a `box-shadow` on the sidebar for depth.
-
-It's also available for a reversed layout when you add both classes:
-
-```html
-<body class="layout-reverse sidebar-overlay">
-  ...
-</body>
-```
-
-### Sidebar open on page load
-
-Show an open sidebar on page load by modifying the `<input>` tag within the `sidebar.html` layout to add the `checked` boolean attribute:
-
-```html
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
-```
-
-Using Liquid you can also conditionally show the sidebar open on a per-page basis. For example, here's how you could have it open on the homepage only:
-
-```html
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
-```
-
-## Development
-
-Lanyon has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be to submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+<a href="https://pixabay.com/photos/people-woman-girl-clothing-eye-2563491/">p1</a>, <a href="https://pixabay.com/photos/dog-puppy-sharpei-petit-animal-1865712/">p2</a>, <a href="https://pixabay.com/photos/night-camera-photographer-photo-1927265/">p3</a>, <a href="https://pixabay.com/photos/road-forest-season-autumn-fall-1072823/">p4</a>, <a href="https://pixabay.com/photos/neuschwanstein-castle-bavaria-701732/">p5</a>, <a href="https://pixabay.com/photos/hohenschwangau-alps-alpsee-bavaria-532864/">p6</a>
