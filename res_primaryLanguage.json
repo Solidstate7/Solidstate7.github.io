@@ -1,0 +1,147 @@
+{
+  "basic_info": {
+    "description_header": "Who am I?",
+    "description": "I am a person driven by curiosity and perseverence, constantly drawn to exploration. Exploration is about seeking truth, which is unchanging and open to everyone. I view blockchain as a technology that guarantees integrity and transparency, essentially a ledger that records truth. Therefore, I want to create useful services with blockchain to contribute to society.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Web3 Project: Naegift",
+      "startDate": "2020",
+      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "images": ["images/portfolio/animal-shelter/download.gif"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "React Project: Stacker-Labs",
+      "startDate": "2018",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": ["images/portfolio/animal-shelter/download.gif"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Express Project: DevUp",
+      "startDate": "2015",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": ["images/portfolio/animal-shelter/download.gif"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Kakao Login Process",
+      "startDate": "2015",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": ["images/portfolio/animal-shelter/download.gif"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Express CRUD Project",
+      "startDate": "2015",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": ["images/portfolio/animal-shelter/download.gif"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Kyungil Game Academy",
+      "years": "06.2023 - 03.2024",
+      "mainTech": ["Web & Blockchain Bootcamp"],
+      "technologies": [
+        "Linux, Git",
+        "HTML, CSS Responsive (Tailwind), Figma",
+        "JavaScript, TypeScript",
+        "Node.js, Express.js",
+        "React (Hooks, Router, Styled Components, Class and Functional Components)",
+        "Webpack, Babel",
+        "CRUD Operations, REST APIs, HTTP Protocols",
+        "Database Management (MySQL, ORM with Sequelize)",
+        "Authentication (Cookies, JWT, Kakao API)",
+        "Socket.io, Web Sockets for Chatrooms",
+        "File Handling (Node.js File System, Multer for File Uploading)",
+        "Error and Exception Handling, TDD (Jest/Supertest)",
+        "Blockchain Technologies (Ethereum, Solidity, Web3.js, ethers.js, Truffle, Ganache, HardHat)",
+        "Smart Contract Patterns (DelegateCall, Proxy, Metatransaction)",
+        "Digital Identity and Cryptography (SSI, DID, VC, Asymmetrical Cryptography)",
+        "ERC Standards (ERC-20, ERC-721, ERC-4337)"
+      ]
+    },
+    {
+      "company": "Naegift",
+      "title": "ETH Seoul Hackathon",
+      "years": "29.03.2024 - 31.03.2024",
+      "mainTech": ["Team Leader"],
+      "technologies": ["NestJS", "NextJS", "Scaffold-ETH-2", "Masca", "Veramo"]
+    }
+  ]
+}
