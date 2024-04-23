@@ -13,7 +13,7 @@
     {
       "title": "Web3 프로젝트: Naegift",
       "startDate": "2024.02",
-      "description": "Naegift는 사용자가 선물을 등록하거나 구매하여 보낼 수 있는 탈중앙 선물 교환 마켓플레이스입니다. MetaMask를 사용하여 선물을 구매하는데, 이더리움 블록체인과 스마트 컨트랙트를 활용한 에스크로 서비스가 거래 중개 역할을 담당합니다. 가장 핵심 기술로는 분산된 신원 및 검증 가능한 자격증명(DID / VC)을 사용하여, 안전하게 신원을 관리하고 선물 소유권을 보장합니다.",
+      "description": "Naegift는 선물을 등록하거나 구매하여 보낼 수 있는 탈중앙 선물 교환 마켓플레이스입니다. MetaMask를 사용하여 트랜잭션을 발생시키고, 이더리움 블록체인과 스마트 컨트랙트를 활용한 에스크로 서비스가 거래 중개 역할을 담당합니다. 가장 핵심 기술로, 분산된 신원 및 검증 가능한 자격증명 (DID / VC)을 사용하여 안전하게 신원을 관리하고 선물 소유권을 보장합니다.",
       "images": ["images/portfolio/naegift/naegift.gif"],
       "url": "https://nae-gift.com",
       "technologies": [
@@ -34,7 +34,7 @@
     {
       "title": "React 프로젝트: Stacker-Labs",
       "startDate": "2023.12",
-      "description": "Stacker-Labs는 개발자들이 코드 스니펫을 생성하고 공유할 수 있는 플랫폼입니다. 계정을 생성하고 태그별로 분류된 코드 스니펫을 공유하거나 검색할 수 있으며, 다른 사용자를 팔로우하여 소통할 수 있습니다. React, Tailwind CSS, NestJS를 사용하여 구축되었으며, 실시간 채팅을 위해 Socket.io가 사용됐습니다.",
+      "description": "Stacker-Labs는 개발자들이 코드 스니펫을 생성하고 공유할 수 있는 플랫폼입니다. 계정을 생성하고 태그별로 분류된 코드 스니펫을 공유하거나 검색할 수 있으며, 다른 사용자를 팔로우하여 소통할 수 있습니다. Recoil을 통해 다크모드 및 유저 정보와 같은 전역 상태가 관리되고, 팔로우 한 사용자와 실시간 채팅을 위해 Socket.io가 사용됐습니다.",
       "images": ["images/portfolio/stackerlabs/stackerlabs.gif"],
       "url": "https://eunjae.store",
       "technologies": [
@@ -59,7 +59,7 @@
     {
       "title": "Express 프로젝트: DevUp",
       "startDate": "2023.11",
-      "description": "DevUp는 개발자들이 서로 소통하고 협력할 수 있는 플랫폼입니다. 프로필 생성, 검색, 공개 채팅 등의 기능이 있습니다. ExpressJS를 사용하여 구축되었으며, Nunjucks로 렌더링됩니다.",
+      "description": "DevUp는 개발자들이 서로 소통하고 협력할 수 있는 플랫폼으로, 제가 직접 Figma로 레이아웃을 디자인하고 구현했습니다. 로컬 및 소셜 로그인 기능이 적용돼있으며, 로그인 한 사용자가 프로필 생성, 글 작성 및 검색을 수행할 수 있습니다. 홈 화면에서 무한스크롤이 가능하고, 사용자들이 Socket.io로 구현된 공개채팅에 참여할 수 있습니다. ExpressJS Server-side에서 Template Engine인 Nunjucks로 렌더됩니다.",
       "images": ["images/portfolio/devup/devup.gif"],
       "url": "https://github.com/KGA-Town-Bus/Project_DevUp",
       "technologies": [
@@ -116,7 +116,7 @@
     {
       "title": "Express CRUD 프로젝트",
       "startDate": "2023.08",
-      "description": "이 프로젝트는 부트캠프 아카데미를 위한 간단한 CRUD(Create, Read, Update, Delete) 게시판 애플리케이션입니다. ExpressJS 서버에서 RESTful API에 따라 CRUD 작업을 수행합니다. ExpressJS, MySQL, 하드코딩된 ORM을 사용하여 구축된 서비스입니다.",
+      "description": "부트캠프 아카데미를 위한 간단한 CRUD (Create, Read, Update, Delete) 게시판입니다. 관리자만 접근 가능한 공지게시판과 로그인 한 일반 사용자가 접근할 수 있는 건의게시판으로 나누어져 있습니다. ExpressJS 서버에서 RESTful API에 따라 CRUD 작업을 수행하고, MySQL과 하드코딩된 ORM으로 DB와 상호작용합니다.",
       "images": ["images/portfolio/crud/crud.gif"],
       "url": "https://github.com/Solidstate7/CRUD_BOARD_PROJECT",
       "technologies": [
@@ -135,13 +135,13 @@
     {
       "title": "경일 게임 아카데미",
       "years": "2023.06 - 2024.03",
-      "mainTech": ["블록체인 기반 핀테크 및 응용 SW 개발자 양성과정 수료"],
+      "mainTech": ["블록체인 기반 핀테크 및 응용 SW 개발자 양성과정"],
       "technologies": [
         "Linux, Git",
-        "HTML, CSS Responsive (Tailwind), Figma",
+        "HTML, Tailwind CSS, Figma",
         "JavaScript, TypeScript",
         "Node.js, Express.js",
-        "React (Hooks, Router, Styled Components, Class and Functional Components)",
+        "React (Functional Components, Hooks, Router)",
         "Webpack, Babel",
         "CRUD Operations, REST APIs, HTTP Protocols",
         "Database Management (MySQL, ORM with Sequelize)",
@@ -149,9 +149,9 @@
         "Socket.io, Web Sockets for Chatrooms",
         "File Handling (Node.js File System, Multer for File Uploading)",
         "Error and Exception Handling, TDD (Jest/Supertest)",
-        "Blockchain Technologies (Ethereum, Solidity, Web3.js, ethers.js, Truffle, Ganache, HardHat)",
-        "Smart Contract Patterns (DelegateCall, Proxy, Metatransaction)",
-        "Digital Identity and Cryptography (SSI, DID, VC, Asymmetrical Cryptography)",
+        "Blockchain Technologies (Ethereum, Solidity, ethers.js)",
+        "Smart Contract Patterns (Proxy, Metatransaction)",
+        "Digital Identity and Asymmetrical Cryptography (SSI, DID, VC)",
         "ERC Standards (ERC-20, ERC-721, ERC-4337)"
       ]
     },
