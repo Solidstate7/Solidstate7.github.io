@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Who am I?",
-    "description": "I am a person driven by curiosity and perseverence, constantly drawn to exploration. Exploration is about seeking truth, which is unchanging and open to everyone. I view blockchain as a technology that guarantees integrity and transparency, essentially a ledger that records truth. Therefore, I want to create useful services with blockchain to contribute to society.",
+    "description_header": "Why do I want to be a Blockchain developer?",
+    "description": "My motivation to become a Blockchain developer stems from a deep-seated curiosity and a relentless drive for exploration. I see exploration as a pursuit of unchanging truth, accessible to all. Blockchain technology, in its essence, serves as a transparent and incorruptible ledger that records truth. It is this integrity and transparency that attract me to blockchain. I am eager to harness this technology to develop services that contribute meaningfully to society, ensuring that every transaction and interaction is anchored in trust and authenticity.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -13,7 +13,7 @@
     {
       "title": "Web3 Project: Naegift",
       "startDate": "2024.02",
-      "description": "Naegift is a decentralized gift exchange platform that allows users to create and participate in gift exchanges. Users can perform transactions using MetaMask. The platform's escrow service is built on the Ethereum blockchain and uses smart contracts to manage gift exchanges. The platform also uses decentralized identity and Verifiable Credentials (DID / VC) to manage user identities and ensure privacy, powered by Masca and Veramo.",
+      "description": "Naegift is a decentralized gift exchange marketplace where users can register or purchase gifts to send. Transactions are initiated using MetaMask, and escrow services facilitated through smart contracts on the Ethereum blockchain mediate the transactions. The core technology involves the use of distributed identities and verifiable credentials (DID/VC) to securely manage identities and ensure gift ownership, powered by Masca and Veramo.",
       "images": ["images/portfolio/naegift/naegift.gif"],
       "url": "https://nae-gift.com",
       "technologies": [
@@ -34,7 +34,7 @@
     {
       "title": "React Project: Stacker-Labs",
       "startDate": "2023.12",
-      "description": "Stacker-Labs is a platform that allows developers to create and share code snippets. Users can create an account, share or search code snippets categorized by tags, and follow other users to communicate. Built with React, Tailwind CSS, and NestJS, the platform also uses Socket.io for real-time chat.",
+      "description": "Stacker-Labs is a platform where developers can create and share code snippets. Users can create an account, share and search for code snippets categorized by tags, and follow other users for communication. Global states such as dark mode and user information are managed through Recoil, and Socket.io is used for real-time chatting with followed users.",
       "images": ["images/portfolio/stackerlabs/stackerlabs.gif"],
       "url": "https://eunjae.store",
       "technologies": [
@@ -59,7 +59,7 @@
     {
       "title": "Express Project: DevUp",
       "startDate": "2023.11",
-      "description": "DevUp is a platform that allows developers to connect with each other and collaborate on projects. Users can create a profile, search for other developers, and participate in a public chat powered by Socket.io. The platform is built using ExpressJS, rendered by Nunjucks.",
+      "description": "DevUp is a platform designed for developers to communicate and collaborate with each other, which I designed and implemented the layout using Figma. It features local and social login capabilities, and logged-in users can create profiles, write posts, and perform searches. The home screen supports infinite scrolling, and users can participate in public chats implemented with Socket.io. It is rendered on the server-side with ExpressJS using the Nunjucks template engine.",
       "images": ["images/portfolio/devup/devup.gif"],
       "url": "https://github.com/KGA-Town-Bus/Project_DevUp",
       "technologies": [
@@ -116,7 +116,7 @@
     {
       "title": "Express CRUD Project",
       "startDate": "2023.08",
-      "description": "This project is a simple CRUD (Create, Read, Update, Delete) board application for a bootcamp academy. The project demonstrates how to create a RESTful API with ExpressJS and perform CRUD operations on a database. The project is built using ExpressJS, MySQL, and a hardcoded ORM.",
+      "description": "This is a simple CRUD (Create, Read, Update, Delete) bulletin board for a bootcamp academy. It is divided into a notice board accessible only by administrators and a suggestion board accessible to logged-in general users. CRUD operations are performed according to RESTful API on an ExpressJS server, interacting with the DB through MySQL and a hardcoded ORM.",
       "images": ["images/portfolio/crud/crud.gif"],
       "url": "https://github.com/Solidstate7/CRUD_BOARD_PROJECT",
       "technologies": [
@@ -138,10 +138,10 @@
       "mainTech": ["Web & Blockchain Bootcamp"],
       "technologies": [
         "Linux, Git",
-        "HTML, CSS Responsive (Tailwind), Figma",
+        "HTML, Tailwind CSS, Figma",
         "JavaScript, TypeScript",
         "Node.js, Express.js",
-        "React (Hooks, Router, Styled Components, Class and Functional Components)",
+        "React (Functional Components, Hooks, Router)",
         "Webpack, Babel",
         "CRUD Operations, REST APIs, HTTP Protocols",
         "Database Management (MySQL, ORM with Sequelize)",
@@ -149,9 +149,9 @@
         "Socket.io, Web Sockets for Chatrooms",
         "File Handling (Node.js File System, Multer for File Uploading)",
         "Error and Exception Handling, TDD (Jest/Supertest)",
-        "Blockchain Technologies (Ethereum, Solidity, Web3.js, ethers.js, Truffle, Ganache, HardHat)",
-        "Smart Contract Patterns (DelegateCall, Proxy, Metatransaction)",
-        "Digital Identity and Cryptography (SSI, DID, VC, Asymmetrical Cryptography)",
+        "Blockchain Technologies (Ethereum, Solidity, ethers.js)",
+        "Smart Contract Patterns (Proxy, Metatransaction)",
+        "Digital Identity and Asymmetrical Cryptography (SSI, DID, VC)",
         "ERC Standards (ERC-20, ERC-721, ERC-4337)"
       ]
     },

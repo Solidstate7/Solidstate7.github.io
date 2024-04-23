@@ -34,7 +34,7 @@
         "level": "100"
       },
       {
-        "name": "Node / Express",
+        "name": "NodeJS ExpressJS",
         "class": "devicon-nodejs-plain colored",
         "level": "100"
       },
@@ -46,6 +46,16 @@
       {
         "name": "PostgreSQL",
         "class": "devicon-postgresql-plain colored",
+        "level": "100"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain colored",
+        "level": "100"
+      },
+      {
+        "name": "Sequelize",
+        "class": "devicon-sequelize-plain colored",
         "level": "100"
       },
       {
@@ -71,6 +81,21 @@
       {
         "name": "React",
         "class": "devicon-react-plain colored",
+        "level": "100"
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "devicon-tailwindcss-plain colored",
+        "level": "100"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain colored",
+        "level": "100"
+      },
+      {
+        "name": "R",
+        "class": "devicon-r-plain colored",
         "level": "100"
       }
     ]
