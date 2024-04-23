@@ -7,8 +7,12 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: true };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
+  }
+
+  componentDidMount() {
+    this.setTheme();
   }
 
   onThemeSwitchChange(checked) {
@@ -51,7 +55,7 @@ class Header extends Component {
             <div>
               <span
                 className="iconify header-icon"
-                data-icon="la:laptop-code"
+                data-icon="logos:ethereum"
                 data-inline="false"
               ></span>
               <br />
