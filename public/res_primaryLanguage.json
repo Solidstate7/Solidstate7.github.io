@@ -13,7 +13,7 @@
     {
       "title": "Web3 Project: Naegift",
       "startDate": "2024.02",
-      "description": "Naegift is a decentralized gift exchange marketplace where users can register or purchase gifts to send. Transactions are initiated using MetaMask, and escrow services facilitated through smart contracts on the Ethereum blockchain mediate the transactions. The core technology involves the use of distributed identities and verifiable credentials (DID/VC) to securely manage identities and ensure gift ownership, powered by Masca and Veramo.",
+      "description": "Naegift is a decentralized gift exchange marketplace where users can register or purchase gifts to send. Transactions are initiated using MetaMask, and escrow services facilitated through smart contracts on the Ethereum blockchain mediate the transactions. The core technology involves the use of decentralized identities and verifiable credentials (DID/VC) to securely manage identities and ensure gift ownership, powered by Masca and Veramo.",
       "images": ["images/portfolio/naegift/naegift.gif"],
       "url": "https://nae-gift.com",
       "technologies": [
@@ -36,7 +36,7 @@
       "startDate": "2023.12",
       "description": "Stacker-Labs is a platform where developers can create and share code snippets. Users can create an account, share and search for code snippets categorized by tags, and follow other users for communication. Global states such as dark mode and user information are managed through Recoil, and Socket.io is used for real-time chatting with followed users.",
       "images": ["images/portfolio/stackerlabs/stackerlabs.gif"],
-      "url": "https://eunjae.store",
+      "url": "https://stacker-labs.vercel.app/",
       "technologies": [
         {
           "class": "devicon-react-original",
