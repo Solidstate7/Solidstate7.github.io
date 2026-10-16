@@ -328,12 +328,11 @@ claude plugin install organism@organism</code></pre>
   <noscript><style>[data-message-eunjae] { display: none !important; }</style></noscript>
 
   <!-- ===== Message Eunjae chat widget: integration point =====
-       WIDGET_HOST lives in one place: the commented <script src> line below.
-       When the host is final, replace <WIDGET_HOST> and uncomment that line; chat.js
-       then hands every [data-message-eunjae] trigger to the widget and keeps the
+       The widget's host lives in one place: the <script src> line below. chat.js
+       hands every [data-message-eunjae] trigger to the widget and keeps the
        fallback dialog above only for load failures. -->
   <script>window.MessageEunjae=window.MessageEunjae||{q:[],open(){this.q.push('open')},close(){this.q.push('close')}};</script>
-  <!-- <script src="https://<WIDGET_HOST>/embed.js" async onload="window.MessageEunjaeLoaded=true" onerror="window.MessageEunjaeFailed=true"></script> -->
+  <script src="https://message-eunjae.vercel.app/embed.js" async onload="window.MessageEunjaeLoaded=true" onerror="window.MessageEunjaeFailed=true"></script>
   <script src="chat.js" defer></script>
 </body>
 </html>
