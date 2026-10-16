@@ -101,15 +101,18 @@
     if (mode === "pending") mode = "widget";
   }
 
-  // Triggers clicked before embed.js has loaded go into the stub's queue; in fallback
-  // mode they open the dialog. Once the widget runs, it handles them itself.
+  // Every trigger means "open the chat", never "toggle it": the page's buttons say
+  // "Message me", and the floating launcher hides while the chat is open. Captured
+  // here so the widget's own toggle-on-click never runs. Before embed.js has loaded
+  // the call goes into the stub's queue; in fallback mode it opens the dialog.
   document.addEventListener("click", function (e) {
     var t = e.target.closest && e.target.closest(TRIGGER);
-    if (!t || mode === "widget") return;
+    if (!t) return;
     e.preventDefault();
+    e.stopPropagation();
     if (mode === "fallback") fallbackOpen();
     else window.MessageEunjae.open();
-  });
+  }, true);
 
   // Decide the mode ----------------------------------------------------------
   if (!embed || window.MessageEunjaeFailed) {
