@@ -118,7 +118,6 @@ cite { font-style: italic; }
   background: linear-gradient(var(--line), var(--line)) top center / calc(100% - 2 * var(--gutter)) 1px no-repeat;
 }
 .section-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 2rem; }
-.kicker { font-family: var(--mono); font-size: 0.8rem; color: var(--faint); }
 .section h2 {
   font-family: var(--serif); font-weight: 400; font-size: clamp(2.1rem, 5.5vw, 3.4rem);
   line-height: 1.05; letter-spacing: -0.01em;

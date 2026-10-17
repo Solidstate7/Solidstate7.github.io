@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eunjae Lee · AI Product Engineer</title>
-  <meta name="description" content="Eunjae Lee, AI Product Engineer in Frankfurt am Main. Author of Organism, an open-source Claude Code plugin that keeps the reasons behind agent-written code, and Purrfluent, a live AI German-learning app built through it.">
+  <title>Eunjae Lee, AI Product Engineer</title>
+  <meta name="description" content="Eunjae Lee, AI Product Engineer in Frankfurt am Main. I wrote Organism, an open-source Claude Code plugin that keeps the reasons behind agent-written code, and built Purrfluent, a live AI German-learning app, through it.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1114" media="(prefers-color-scheme: dark)">
@@ -12,8 +12,8 @@
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://solidstate7.github.io/">
-  <meta property="og:title" content="Eunjae Lee · AI Product Engineer">
-  <meta property="og:description" content="Author of Organism, an open-source Claude Code plugin that keeps the reasons behind agent-written code, and Purrfluent, a live AI German-learning app built through it.">
+  <meta property="og:title" content="Eunjae Lee, AI Product Engineer">
+  <meta property="og:description" content="I wrote Organism, an open-source Claude Code plugin that keeps the reasons behind agent-written code, and built Purrfluent, a live AI German-learning app, through it.">
   <meta property="og:image" content="https://solidstate7.github.io/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -37,8 +37,8 @@
       <nav aria-label="Sections">
         <ul class="nav">
           <li><a href="#work">Work</a></li>
-          <li><a href="#how">How I Build</a></li>
-          <li><a href="#team">Team Projects</a></li>
+          <li><a href="#how">How I build</a></li>
+          <li><a href="#team">Team projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
   <main id="main">
     <section class="hero wrap" id="top" aria-labelledby="hero-title">
       <h1 id="hero-title">Eunjae Lee</h1>
-      <p class="role">AI Product Engineer <span>· Frankfurt am Main</span></p>
+      <p class="role">AI Product Engineer <span>in Frankfurt am Main</span></p>
       <p class="lead">I build products with AI coding agents, and the tooling that keeps their work understandable.</p>
       <p class="hero-sub">I wrote <a href="https://github.com/Solidstate7/organism">Organism</a>, an open-source Claude Code plugin that keeps the reasons behind agent-written code, and built <a href="https://purrfluent.app">Purrfluent</a>, a live AI German-learning app, through it. Before that, I led three bootcamp development teams.</p>
       <ul class="actions" aria-label="Primary links">
@@ -56,34 +56,33 @@
         <li><a class="btn" href="https://purrfluent.app">Try Purrfluent</a></li>
         <li><a class="btn" href="https://medium.com/@vanitasium/semantic-sovereignty-your-agent-writes-the-code-who-keeps-the-reasons-671fa8785adc">Read the essay</a></li>
       </ul>
-      <p class="hero-meta">German Working Holiday visa granted (Oct 2026 – Oct 2027) · <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a></p>
+      <p class="hero-meta">German Working Holiday visa granted (October 2026 to October 2027). Email: <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a></p>
     </section>
 
     <section class="section wrap" id="work" aria-labelledby="work-title">
       <div class="section-head">
-        <p class="kicker">01</p>
-        <h2 id="work-title">Featured Work</h2>
+        <h2 id="work-title">Featured work</h2>
       </div>
 
       <article class="feature" aria-labelledby="organism-title">
         <div class="feature-head">
           <div>
             <h3 id="organism-title">Organism</h3>
-            <p class="feature-tag">Open-source Claude Code plugin · MIT · v0.1.2</p>
+            <p class="feature-tag">Open-source Claude Code plugin, v0.1.2</p>
           </div>
-          <p class="date">Jun 2026 – Present</p>
+          <p class="date">Since Jun 2026</p>
         </div>
-        <p class="feature-lede">Keeps the reasons behind agent-written code: what was decided, why, and which commits carried it out.</p>
+        <p class="feature-lede">It records why agent-written code changed, and links each decision to the commits that carry it out.</p>
         <dl class="stats">
           <div><dt>Test assertions</dt><dd>1,078</dd></div>
-          <div><dt>CI</dt><dd>macOS · Linux</dd></div>
+          <div><dt>CI</dt><dd>macOS and Linux</dd></div>
           <div><dt>Licence</dt><dd>MIT</dd></div>
         </dl>
         <ul class="points">
           <li>Saves every AI coding session as a markdown note, with secrets redacted before anything is written.</li>
-          <li>Writes decision records linked both ways to the commits that carry them out (git notes), plus a brief for the next session.</li>
-          <li>Blocks pushes and deploys that contain private terms: the publish guard reads what is actually sent, from unpushed commits to a deploy’s folder.</li>
-          <li>Runs on Python (standard library), bash and Node, with Claude Code hooks, skills and a plugin manifest.</li>
+          <li>Writes decision records, links them both ways to the commits that carry them out through git notes, and leaves a brief for the next session.</li>
+          <li>Its publish guard reads what a push or deploy actually sends, from unpushed commits to a deploy’s folder, and blocks it when a private term is inside.</li>
+          <li>Written in Python (standard library only), bash and Node, and wired into Claude Code through hooks, skills and a plugin manifest.</li>
         </ul>
         <div class="install">
           <p class="install-label" id="install-label">Install</p>
@@ -100,25 +99,24 @@ claude plugin install organism@organism</code></pre>
         <div class="feature-head">
           <div>
             <h3 id="purrfluent-title">Purrfluent</h3>
-            <p class="feature-tag">AI German-learning app · built through Organism</p>
+            <p class="feature-tag">AI German-learning app, built through Organism</p>
           </div>
-          <p class="date">May 2026 – Present</p>
+          <p class="date">Since May 2026</p>
         </div>
         <div class="feature-grid">
           <div>
-            <p class="feature-lede">A live learning app, built and run alone, with every decision recorded through Organism.</p>
+            <p class="feature-lede">A live learning app that I built and run alone, with its decisions recorded through Organism.</p>
             <dl class="stats">
               <div><dt>Decision records</dt><dd>109</dd></div>
               <div><dt>Commits linked to a decision</dt><dd>218</dd></div>
               <div><dt>Pre-generated audio clips</dt><dd>38,000+</dd></div>
             </dl>
             <ul class="points">
-              <li>Built tutor chat on Claude Sonnet with Gemini as fallback, roleplay, grammar drills and speaking courses in German and English.</li>
-              <li>Engineered the audio layer: clips stored on Cloudflare R2, text-to-speech (TTS) routed across providers by latency and cost, per-user API cost caps.</li>
-              <li>Implemented card (Paddle) and crypto (NOWPayments) billing with a paywall, usage limits and refunds; sales are paused while it runs as a portfolio demo.</li>
-              <li>Recorded 109 decisions through Organism, with 218 commits linked to the decision behind them.</li>
+              <li>The tutor chat runs on Claude Sonnet with Gemini as a fallback, next to roleplays, grammar drills and speaking courses in German and English.</li>
+              <li>The audio clips sit on Cloudflare R2, text-to-speech is routed across three providers by latency and cost, and every user has an API cost cap.</li>
+              <li>Card billing through Paddle and crypto payments through NOWPayments work with a paywall, usage limits and refunds. Sales are paused while it runs as a portfolio demo.</li>
             </ul>
-            <p class="stack">React · NestJS · PostgreSQL (Neon) · Vercel · Cloudflare R2</p>
+            <p class="stack">React, NestJS, PostgreSQL (Neon), Vercel and Cloudflare R2</p>
             <ul class="links" aria-label="Purrfluent links">
               <li><a href="https://purrfluent.app">purrfluent.app</a></li>
             </ul>
@@ -132,8 +130,7 @@ claude plugin install organism@organism</code></pre>
 
     <section class="section wrap" id="how" aria-labelledby="how-title">
       <div class="section-head">
-        <p class="kicker">02</p>
-        <h2 id="how-title">How I Build</h2>
+        <h2 id="how-title">How I build</h2>
       </div>
       <div class="prose">
         <p>When an agent writes the code, the reason behind each change is the first thing to go. I built Organism to keep it.</p>
@@ -141,56 +138,55 @@ claude plugin install organism@organism</code></pre>
       <ol class="flow">
         <li>
           <p class="flow-step">Session</p>
-          <p>Each Claude Code session is saved as a markdown note, secrets redacted.</p>
+          <p>Organism saves each Claude Code session as a markdown note and redacts secrets first.</p>
         </li>
         <li>
           <p class="flow-step">/handoff</p>
           <p>At the end, it writes a decision record for what was decided, and a brief that opens the next session.</p>
         </li>
         <li>
-          <p class="flow-step">Record ⇄ commit</p>
+          <p class="flow-step">Record and commit</p>
           <p>Each record links to the commits that carry it out, and each commit back to its record, in git notes.</p>
         </li>
       </ol>
       <div class="prose">
-        <p>Purrfluent is built this way: 109 decision records, and 218 commits that link back to the decision behind them. The longer argument is in the essay, <a href="https://medium.com/@vanitasium/semantic-sovereignty-your-agent-writes-the-code-who-keeps-the-reasons-671fa8785adc"><cite>Semantic Sovereignty</cite></a>.</p>
+        <p>Purrfluent is built this way, with 109 decision records and 218 commits that link back to the decision behind them. I make the longer argument in the essay <a href="https://medium.com/@vanitasium/semantic-sovereignty-your-agent-writes-the-code-who-keeps-the-reasons-671fa8785adc"><cite>Semantic Sovereignty</cite></a>.</p>
       </div>
     </section>
 
     <section class="section wrap" id="team" aria-labelledby="team-title">
       <div class="section-head">
-        <p class="kicker">03</p>
-        <h2 id="team-title">Team Projects <span class="h2-note">(Bootcamp &amp; Hackathon)</span></h2>
+        <h2 id="team-title">Team projects <span class="h2-note">(bootcamp and hackathon)</span></h2>
       </div>
-      <p class="section-intro">Team lead on three bootcamp projects, then a hackathon. Kyungil Game Academy, 2023 – 2024.</p>
+      <p class="section-intro">I led three team projects at the Kyungil Game Academy bootcamp in 2023 and 2024, and then a team at a hackathon.</p>
       <div class="cards">
         <article class="card" aria-labelledby="eth-title">
           <p class="date">Mar 2024</p>
           <h3 id="eth-title">ETH Seoul 2024</h3>
-          <p class="card-tag">Hackathon · team leader and backend developer · team of 3</p>
+          <p class="card-tag">Hackathon, team leader and backend developer in a team of 3</p>
           <ul class="points">
-            <li>Led a three-day re-implementation of Naegift with domain-driven, service-oriented design and a NestJS OpenAPI (Swagger) layer for Scaffold-ETH 2.</li>
+            <li>Led the three-day re-implementation of Naegift with domain-driven, service-oriented design and a NestJS OpenAPI (Swagger) layer for Scaffold-ETH 2.</li>
             <li>Presented the technical design and business model in English to an international audience.</li>
           </ul>
         </article>
         <article class="card" aria-labelledby="naegift-title">
-          <p class="date">Feb 2024 – Mar 2024</p>
+          <p class="date">Feb to Mar 2024</p>
           <h3 id="naegift-title">Naegift</h3>
-          <p class="card-tag">Web3 gift-card marketplace · team leader · 5 members, 5 weeks</p>
+          <p class="card-tag">Web3 gift-card marketplace, team leader of 5 for 5 weeks</p>
           <ul class="points">
-            <li>Designed the architecture from research into the W3C decentralised identifier and verifiable credential (DID/VC) standards.</li>
-            <li>Coded the full credential lifecycle (issuance, storage, verification, revocation) on a NestJS backend.</li>
-            <li>Developed event-driven escrow with Ethers.js; pitched the result to corporate partner Authrium.</li>
+            <li>Designed the architecture from my own research into the W3C standards for decentralised identifiers and verifiable credentials (DID/VC).</li>
+            <li>Implemented the whole credential lifecycle on a NestJS backend, from issuance and storage to verification and revocation.</li>
+            <li>Wrote the event-driven escrow with Ethers.js, and presented the result to our corporate partner, Authrium.</li>
           </ul>
-          <p class="stack">NestJS · React · Solidity · PostgreSQL · TypeORM · Veramo</p>
+          <p class="stack">NestJS, React, Solidity, PostgreSQL, TypeORM and Veramo</p>
           <ul class="links"><li><a href="https://github.com/Solidstate7/did_project_upgrade">Repository</a></li></ul>
         </article>
         <article class="card" aria-labelledby="stacker-title">
-          <p class="date">Dec 2023 – Jan 2024</p>
+          <p class="date">Dec 2023 to Jan 2024</p>
           <h3 id="stacker-title">Stacker-Labs</h3>
-          <p class="card-tag">Developer community platform · team leader · 4 members, 4 weeks</p>
+          <p class="card-tag">Developer community platform, team leader of 4 for 4 weeks</p>
           <ul class="points">
-            <li>Structured reusable components with Atomic Design and Tailwind; managed state with Recoil and session renewal with React Query.</li>
+            <li>Built reusable components with Atomic Design and Tailwind, and managed state with Recoil and session renewal with React Query.</li>
             <li>Automated deployment through GitHub Actions self-hosted runners on AWS EC2.</li>
           </ul>
           <ul class="links"><li><a href="https://github.com/Stacker-Labs/KGA-React-Project">Repository</a></li></ul>
@@ -198,9 +194,9 @@ claude plugin install organism@organism</code></pre>
         <article class="card" aria-labelledby="devup-title">
           <p class="date">Nov 2023</p>
           <h3 id="devup-title">DevUp</h3>
-          <p class="card-tag">Real-time developer chat and board · team leader · 3 members, 3 weeks</p>
+          <p class="card-tag">Real-time developer chat and board, team leader of 3 for 3 weeks</p>
           <ul class="points">
-            <li>Shipped real-time chat with Socket.io on client and server, logs in SQLite, MVC architecture and JWT authentication on Node.js and Express.</li>
+            <li>Implemented the real-time chat with Socket.io on both client and server and kept its logs in SQLite, in an MVC app with JWT authentication on Node.js and Express.</li>
           </ul>
           <ul class="links"><li><a href="https://github.com/KGA-Town-Bus/Project_DevUp">Repository</a></li></ul>
         </article>
@@ -209,30 +205,28 @@ claude plugin install organism@organism</code></pre>
 
     <section class="section wrap" id="skills" aria-labelledby="skills-title">
       <div class="section-head">
-        <p class="kicker">04</p>
         <h2 id="skills-title">Skills</h2>
       </div>
       <dl class="skills">
         <div><dt>Languages</dt><dd>TypeScript, JavaScript, Python, SQL, Solidity, shell</dd></div>
-        <div><dt>Web</dt><dd>React, React Router, TanStack Query · Node.js, NestJS, Express, FastAPI, REST APIs, JWT</dd></div>
-        <div><dt>Data</dt><dd>PostgreSQL (Neon), SQLite / libSQL, Drizzle ORM, TypeORM</dd></div>
-        <div><dt>AI</dt><dd>Claude API, Claude Agent SDK, Gemini, OpenAI · TTS and speech-to-text (STT) · Claude Code plugins</dd></div>
-        <div><dt>Cloud &amp; DevOps</dt><dd>Vercel, Cloudflare R2, AWS (EC2, RDS, S3), GitHub Actions CI, Linux, launchd / cron</dd></div>
+        <div><dt>Web</dt><dd>React, React Router, TanStack Query, Node.js, NestJS, Express, FastAPI, REST APIs, JWT</dd></div>
+        <div><dt>Data</dt><dd>PostgreSQL (Neon), SQLite and libSQL, Drizzle ORM, TypeORM</dd></div>
+        <div><dt>AI</dt><dd>Claude API, Claude Agent SDK, Gemini, OpenAI, text-to-speech, speech-to-text, Claude Code plugins</dd></div>
+        <div><dt>Cloud &amp; DevOps</dt><dd>Vercel, Cloudflare R2, AWS (EC2, RDS, S3), GitHub Actions CI, Linux, launchd and cron</dd></div>
         <div><dt>Practices</dt><dd>Architecture decision records, testing (Jest, pytest), payments (Paddle, NOWPayments)</dd></div>
       </dl>
     </section>
 
     <section class="section wrap" id="experience" aria-labelledby="experience-title">
       <div class="section-head">
-        <p class="kicker">05</p>
-        <h2 id="experience-title">Professional Experience</h2>
+        <h2 id="experience-title">Professional experience</h2>
       </div>
       <ol class="timeline">
         <li>
-          <p class="date">Feb 2025 – Feb 2026</p>
+          <p class="date">Feb 2025 to Feb 2026</p>
           <div>
-            <h3>Barista · Starbucks Coffee Korea</h3>
-            <p>Delivered high-volume customer service while self-funding a degree in AI.</p>
+            <h3>Barista, Starbucks Coffee Korea</h3>
+            <p>I made drinks and served customers at high volume, and calibrated the Mastrena I and II espresso machines. The job paid for my degree in AI.</p>
           </div>
         </li>
       </ol>
@@ -240,22 +234,21 @@ claude plugin install organism@organism</code></pre>
 
     <section class="section wrap" id="education" aria-labelledby="education-title">
       <div class="section-head">
-        <p class="kicker">06</p>
         <h2 id="education-title">Education</h2>
       </div>
       <ol class="timeline">
         <li>
-          <p class="date">Mar 2024 – Feb 2027 (expected)</p>
+          <p class="date">Mar 2024 to Feb 2027 (expected)</p>
           <div>
-            <h3>Bachelor of Engineering, Advanced Engineering (AI major) · Korea National Open University</h3>
-            <p>Merit-based full scholarships (GPA 4.4/4.5) · distance learning · Micro-major in Business Administration</p>
+            <h3>Bachelor of Engineering, Advanced Engineering (AI major), Korea National Open University</h3>
+            <p>Merit-based full scholarships (GPA 4.4/4.5). Micro-major in Business Administration. Distance learning.</p>
           </div>
         </li>
         <li>
-          <p class="date">Jun 2023 – Mar 2024</p>
+          <p class="date">Jun 2023 to Mar 2024</p>
           <div>
-            <h3>Web / Blockchain Developer Bootcamp · Kyungil Game Academy</h3>
-            <p>10 months full-time: Linux, TypeScript, React, Node.js, NestJS, Solidity smart contracts (ERC-20 / 721 / 1155), DID/VC.</p>
+            <h3>Web and Blockchain Developer Bootcamp, Kyungil Game Academy</h3>
+            <p>Ten months full-time: Linux, TypeScript, React, Node.js, NestJS, Solidity smart contracts (ERC-20/721/1155) and decentralised identity (DID/VC).</p>
           </div>
         </li>
       </ol>
@@ -264,22 +257,20 @@ claude plugin install organism@organism</code></pre>
     <section class="section wrap split" aria-label="Languages and writing">
       <div id="languages">
         <div class="section-head">
-          <p class="kicker">07</p>
           <h2>Languages</h2>
         </div>
         <ul class="langs">
           <li><span>Korean</span> native</li>
           <li><span>English</span> C1 (IELTS 7.5)</li>
-          <li><span>German</span> A2, actively learning</li>
+          <li><span>German</span> A2, still learning</li>
         </ul>
       </div>
       <div id="writing">
         <div class="section-head">
-          <p class="kicker">08</p>
           <h2>Writing</h2>
         </div>
         <a class="essay" href="https://medium.com/@vanitasium/semantic-sovereignty-your-agent-writes-the-code-who-keeps-the-reasons-671fa8785adc">
-          <span class="essay-meta">Medium · Oct 2026 · free to read</span>
+          <span class="essay-meta">Medium, October 2026, free to read</span>
           <span class="essay-title">Semantic Sovereignty: Your Agent Writes the Code. Who Keeps the Reasons?</span>
         </a>
       </div>
@@ -287,13 +278,12 @@ claude plugin install organism@organism</code></pre>
 
     <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
       <div class="section-head">
-        <p class="kicker">09</p>
         <h2 id="contact-title">Contact</h2>
       </div>
-      <p class="contact-lead">A role, Organism or Purrfluent: send me a message and I’ll reply.</p>
+      <p class="contact-lead">If you’d like to talk about a role, Organism or Purrfluent, send me a message and I’ll reply.</p>
       <button type="button" class="btn btn-primary btn-lg" data-message-eunjae>Message me</button>
-      <p class="contact-alt">Or <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a> · <a href="https://github.com/Solidstate7">GitHub</a> · <a href="https://www.linkedin.com/in/eunjaexyz">LinkedIn</a></p>
-      <p class="hero-meta">Frankfurt am Main · German Working Holiday visa granted (Oct 2026 – Oct 2027)</p>
+      <p class="contact-alt">Or write to <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a>, or find me on <a href="https://github.com/Solidstate7">GitHub</a> and <a href="https://www.linkedin.com/in/eunjaexyz">LinkedIn</a>.</p>
+      <p class="hero-meta">Frankfurt am Main. German Working Holiday visa granted (October 2026 to October 2027).</p>
     </section>
   </main>
 
@@ -317,7 +307,7 @@ claude plugin install organism@organism</code></pre>
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
         </button>
       </div>
-      <p id="me-fallback-desc" class="chat-body">Chat is coming soon. Email <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a> meanwhile.</p>
+      <p id="me-fallback-desc" class="chat-body">The chat didn’t load. You can email me at <a href="mailto:vanitasium@gmail.com">vanitasium@gmail.com</a> instead.</p>
       <div class="chat-actions">
         <a class="btn btn-primary" href="mailto:vanitasium@gmail.com" data-autofocus>Email Eunjae</a>
         <button type="button" class="btn" data-close>Close</button>
