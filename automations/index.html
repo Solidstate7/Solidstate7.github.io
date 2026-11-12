@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automations for my move to Germany, Eunjae Lee</title>
+  <meta name="description" content="Three small programs found my room, booked my appointment at the city office and read the developer calendars while I moved to Frankfurt. This page shows what they did and how they work.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1114" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://solidstate7.github.io/automations/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://solidstate7.github.io/automations/">
+  <meta property="og:title" content="Automations for my move to Germany">
+  <meta property="og:description" content="Three small programs that found my room, booked my appointment at the city office and read the developer calendars while I moved to Frankfurt.">
+  <meta property="og:image" content="https://solidstate7.github.io/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Page-specific additions on top of ../styles.css.
+       Colour: one accent with one job. The site's accent marks what I decide myself, which is the third step and
+       the section "What I kept for myself". Everything else is ink and grey, because many marks compete and none is read.
+       Reading: every text column is about 68 characters wide, long text is ink or a dark grey of 9:1 or more on the
+       page, and the steps are real text, so they stay readable on a phone. */
+    :root { --text-2: color-mix(in srgb, var(--ink) 80%, var(--bg)); }
+    .case-hero { padding-block: clamp(3rem, 9vw, 6rem) clamp(2.5rem, 6vw, 4rem); }
+    .case-hero h1 { font-size: clamp(2.6rem, 8vw, 5.4rem); line-height: 1; }
+    .case-hero .lead { max-width: 30ch; }
+    .case-hero .hero-sub { max-width: 38rem; line-height: 1.65; color: var(--text-2); }
+    .back { font-size: 0.92rem; color: var(--muted); }
+    .case-grid { display: grid; gap: 2rem; align-items: start; }
+    @media (min-width: 60rem) { .case-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); } }
+    .shot figcaption { padding: 0.6rem 0.9rem; font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--line); background: var(--surface); }
+    .shot img { background: #EEF0EC; }
+    .plain { max-width: 38rem; margin-top: 1.4rem; }
+    .plain p { font-size: 1.12rem; line-height: 1.65; }
+    .plain p + p { margin-top: 1rem; }
+    .plain.mine p { border-left: 3px solid var(--accent); padding-left: 0.95rem; }
+    .steps { list-style: none; margin: 1.8rem 0 0; padding: 0; max-width: 56rem; display: grid; gap: 0.7rem; grid-template-columns: repeat(4, minmax(0, 1fr)); counter-reset: step; }
+    @media (max-width: 46rem) { .steps { grid-template-columns: 1fr; max-width: 38rem; } }
+    .steps li { counter-increment: step; padding: 0.85rem 1rem 0.95rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+    .steps li::before { content: counter(step); display: block; margin-bottom: 0.35rem; font-size: 0.8rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .steps li { font-size: 1rem; line-height: 1.45; }
+    .steps li.me { font-weight: 600; }
+    .steps li.me { border: 1.5px solid var(--accent); }
+    .steps li.me::before { color: var(--accent); }
+    .steps-note { max-width: 38rem; margin-top: 0.9rem; font-size: 0.95rem; line-height: 1.55; color: var(--text-2); }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="../" aria-label="Eunjae Lee, home">EL</a>
+      <nav aria-label="Sections">
+        <ul class="nav">
+          <li><a href="#room">Room search</a></li>
+          <li><a href="#appointment">Appointment</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#manual">What I kept</a></li>
+          <li><a href="#built">How it's built</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero case-hero wrap" id="top" aria-labelledby="case-title">
+      <p class="back"><a href="../">Eunjae Lee</a> / Case study</p>
+      <h1 id="case-title">Automations for my move to Germany</h1>
+      <p class="role">Three small programs, since September 2026 <span>Frankfurt am Main</span></p>
+      <p class="lead">I moved from Seoul to Frankfurt in October 2026. Three small programs that I wrote did the boring parts for me. They did the searching and the waiting. I made the decisions.</p>
+      <p class="hero-sub">The first one found the room where I live. The second one got me an appointment at the city office, which is hard to get. The third one tells me every morning which tech events I should sign up for before it is too late. The pictures on this page use made-up test data.</p>
+    </section>
+
+    <section class="section wrap" id="problem" aria-labelledby="problem-title">
+      <div class="section-head">
+        <h2 id="problem-title">How all three work</h2>
+      </div>
+      <div class="plain">
+        <p>Each program looks at websites or my mail on a schedule. It checks what it finds against rules that I wrote, like "under this price" or "closes within three days". When something fits, it sends a short message to my phone with the facts and two or three buttons.</p>
+        <p>I let the program send two kinds of message on its own. One is the first message to a landlord, when an ad passes every rule. The other is the answer to a simple question, in words that I wrote in advance. Everything else waits until I press a button. Nothing is booked or signed up for without me.</p>
+        <p>I use AI for one job only: it translates a landlord's German or drafts a reply. It never decides anything.</p>
+        <p>Why phone messages and not an app? Because I build the working part first. I can reuse the rules and the data in the next project. I cannot reuse a screen. Telegram already has buttons and a message history, so I did not have to build a screen while the rest was still changing. When the working part is stable, I build the app on top of it.</p>
+      </div>
+      <ol class="steps" aria-label="How the programs work, in four steps">
+        <li>The program looks and checks my rules.</li>
+        <li>A message reaches my phone with the facts and buttons.</li>
+        <li class="me">I press a button, or the message waits.</li>
+        <li>The program sends, books or saves the date.</li>
+      </ol>
+      <p class="steps-note">The AI helps at the first step only. It translates and drafts text, and it never acts on its own.</p>
+    </section>
+
+    <section class="section wrap" id="room" aria-labelledby="room-title">
+      <div class="section-head">
+        <h2 id="room-title">It found the room where I live</h2>
+      </div>
+      <div class="case-grid">
+        <div>
+          <div class="plain">
+            <p>Rooms in Frankfurt go to whoever writes first. From Seoul, seven hours ahead, I was always too late. So the program checked three room websites every three hours. It tested every new ad against five rules. They cover the rent, the move-in date, a train ride of under 40 minutes, a legal deposit and no short stays. If an ad passed all five, the program wrote the first message to the landlord for me.</p>
+            <p>When a landlord wrote back, the program read the reply in my Gmail and sent it to my phone in English, with a suggested answer. The program answered simple questions like "when can you move in?" with text that I had written in advance. Anything about a viewing, papers, money or a contract waited until I looked at it.</p>
+            <p>In the first version each message cost about $2.60, because every message opened its own browser session. After I batched the sends, a message cost $0.11.</p>
+            <p>Through the program I contacted 55 landlords in 15 days, and it sent 30 of those messages on its own. The room where I live came from a message that it sent one minute after it found the ad. Three days later I saw the room on a video call, and the contract came the day after, on 7 October. I switched the program off the next day.</p>
+          </div>
+          <dl class="stats">
+            <div><dt>Landlords contacted</dt><dd>55</dd></div>
+            <div><dt>Days to the room</dt><dd>15</dd></div>
+            <div><dt>Ads checked</dt><dd>about 800</dd></div>
+          </dl>
+        </div>
+        <figure class="shot">
+          <img src="../assets/automations/reply-card.png" width="840" height="1120" loading="lazy" alt="A Telegram card for a landlord's reply: the German message, its English translation, the verdict that it is a routine question, a suggested reply in German, and two buttons, Open conversation and Reply.">
+          <figcaption>A landlord's reply as it reaches my phone. Test data: the flat and the message are made up.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section wrap" id="appointment" aria-labelledby="appointment-title">
+      <div class="section-head">
+        <h2 id="appointment-title">It got me the city office appointment</h2>
+      </div>
+      <div class="plain">
+        <p>Everyone who moves to Germany has to register their address at the city office, the Bürgeramt, and you need an appointment for that. Free appointments are rare and are gone quickly. So a small program watched the booking page for me. When a time in the hours that I chose came up, it filled in my name and e-mail.</p>
+        <p>Then it stopped and handed over to me. I solved the CAPTCHA, the small maths puzzle that the site shows, pressed the button and confirmed the e-mail. I ran it once, for my own registration, and got an appointment for 23 October.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="events" aria-labelledby="events-title">
+      <div class="section-head">
+        <h2 id="events-title">It tells me which tech events to sign up for</h2>
+      </div>
+      <div class="case-grid">
+        <div>
+          <div class="plain">
+            <p>Tech meetups, hackathons, talks and job fairs around Frankfurt are listed on about ten different websites. I can't check them all every day, so the program does it every morning. It picks the ones that fit me and sends them to my phone. If sign-up closes within three days, the message says so at the top.</p>
+            <p>If I press "Going", the event goes into my calendar. The program never signs me up for anything. That part I do myself.</p>
+          </div>
+          <dl class="stats">
+            <div><dt>Mornings it ran</dt><dd>35</dd></div>
+            <div><dt>Events it looked at</dt><dd>421</dd></div>
+            <div><dt>Sent to my phone</dt><dd>42</dd></div>
+          </dl>
+        </div>
+        <figure class="shot">
+          <img src="../assets/automations/event-card.png" width="840" height="800" loading="lazy" alt="A Telegram event card headed Closes in 3 days: a meetup title, its date, place and registration deadline, why it matched my scope, and three buttons, Going, Open and Skip.">
+          <figcaption>An event as it reaches my phone. Test data: the meetup is made up.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section wrap" id="manual" aria-labelledby="manual-title">
+      <div class="section-head">
+        <h2 id="manual-title">What I kept for myself</h2>
+      </div>
+      <div class="plain mine">
+        <p>There are things that the programs are not allowed to do. They never write to a landlord in their own words. They never solve the CAPTCHA. They never log in anywhere. They never sign up or pay for anything. Those are my jobs.</p>
+        <p>I decided each of these on purpose and wrote the reason down next to the code.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="built" aria-labelledby="built-title">
+      <div class="section-head">
+        <h2 id="built-title">How it's built</h2>
+      </div>
+      <div class="plain">
+        <p>The programs are written in Python and JavaScript. The messages go through Telegram. Claude, an AI model, translates and drafts text. The programs use my own Chrome browser and run on a schedule on my Mac. They share one Obsidian vault as their memory. Every decision is written down next to the code, and every coding session is recorded with <a href="https://github.com/Solidstate7/organism">Organism</a>, a tool that I published.</p>
+      </div>
+      <ul class="links" aria-label="Links">
+        <li><a href="../#contact">Message me</a></li>
+        <li><a href="https://github.com/Solidstate7/organism">Organism on GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Eunjae Lee</p>
+    </div>
+  </footer>
+</body>
+</html>
